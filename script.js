@@ -55,13 +55,12 @@ function clearGrids() {
         grid[i].style.background="white"
     }
 }
-// console.log(container);
+
 range.addEventListener('input', ()=>{
     clearGrids()
     n= range.value
     makeGrid(n)
-    // console.log(container);
-    // console.log(container);
+
 })
 
 rainbow.addEventListener('click', ()=>{
